@@ -38,4 +38,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 *Run: ```npm install --save @angular/flex-layout```
 
 ##Check: Add Service "upload"
-*Run:```ng generate service upload/upload```
+*Run:```ng generate service service/upload```
+
+##Check: Add component "dialog"
+* Run: ```ng generate component upload/dialog --nospec```
+
