@@ -36,3 +36,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * Add to style.css ```@import '~@angular/material/prebuilt-themes/indigo-pink.css';```
 
 *Run: ```npm install --save @angular/flex-layout```
+
+##Check: Add Service "upload"
+*Run:```ng generate service upload/upload```
