@@ -7,10 +7,9 @@ const url = 'http://localhost:8000/upload';
 
 @Injectable()
 export class UploadService {
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) { }
 
-  public upload(files: Set<File>): 
-    { [key: string]: { progress: Observable<number> } } {
+  public upload(files: Set<File>): { [key: string]: { progress: Observable<number> } } {
 
     // this will be the our resulting map
     const status: { [key: string]: { progress: Observable<number> } } = {};
