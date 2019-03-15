@@ -28,3 +28,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 # Online Ref: https://malcoded.com/posts/angular-file-upload-component-with-express
 * requires project "Express" as a node server
+* command to start server: "node server.js"
