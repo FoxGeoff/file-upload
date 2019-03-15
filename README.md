@@ -29,3 +29,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 # Online Ref: https://malcoded.com/posts/angular-file-upload-component-with-express
 * requires project "Express" as a node server
 * command to start server: "node server.js"
+
+## Set up
+* Run: ```ng new file-upload```
+* Run: ```npm install --save @angular/material @angular/cdk```
+* Add to style.css ```@import '~@angular/material/prebuilt-themes/indigo-pink.css';```
+
+*Run: ```npm install --save @angular/flex-layout```
